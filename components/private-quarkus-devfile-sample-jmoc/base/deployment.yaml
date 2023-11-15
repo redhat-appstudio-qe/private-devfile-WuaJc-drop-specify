@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: private-quarkus-devfile-sample-jmoc
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-hoyr-tenant/private-devfile/private-quarkus-devfile-sample-jmoc@sha256:8416318137f092c6a52f759749f034fdcb0b96a2e69f9ad901fd2f8ca2a9735a
         name: my-java-quarkus
         ports:
         - containerPort: 8081
